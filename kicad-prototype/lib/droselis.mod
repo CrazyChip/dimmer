@@ -1,0 +1,78 @@
+PCBNEW-LibModule-V1  2014.02.04 00:16:53
+# encoding utf-8
+Units mm
+$INDEX
+cnp_18x8mm
+droselis27x12
+$EndINDEX
+$MODULE cnp_18x8mm
+Po 0 0 0 15 52F01381 00000000 ~~
+Li cnp_18x8mm
+Cd cap non pol, 18x8mm
+Sc 0
+AR /52E03009
+Op 0 0 0
+T0 0 -2 1.524 1.524 0 0.3048 N V 21 N "L2"
+T1 0 2 1.524 1.524 0 0.3048 N V 21 N "10uH"
+DS 0 -6 14 -6 0.15 21
+DS 14 -6 14 6 0.15 21
+DS 14 6 -14 6 0.15 21
+DS -14 6 -14 -6 0.15 21
+DS -14 -6 0 -6 0.15 21
+$PAD
+Sh "1" C 2.49936 2.49936 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 1 "N-0000057"
+Po 0 5.5
+$EndPAD
+$PAD
+Sh "2" C 2.49936 2.49936 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 2 "N-0000087"
+Po 0 -5.5
+$EndPAD
+$SHAPE3D
+Na "discret/capacitor/cnp_18x8mm.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE cnp_18x8mm
+$MODULE droselis27x12
+Po 0 0 0 15 52F01381 00000000 ~~
+Li droselis27x12
+Cd droselis 27x12
+Sc 0
+AR /52E03009
+Op 0 0 0
+T0 0 -2 1.524 1.524 0 0.3048 N V 21 N "L2"
+T1 0 2 1.524 1.524 0 0.3048 N V 21 N "10uH"
+DS 0 -6 14 -6 0.15 21
+DS 14 -6 14 6 0.15 21
+DS 14 6 -14 6 0.15 21
+DS -14 6 -14 -6 0.15 21
+DS -14 -6 0 -6 0.15 21
+$PAD
+Sh "1" C 2.49936 2.49936 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 1 "N-0000057"
+Po 0 5.5
+$EndPAD
+$PAD
+Sh "2" C 2.49936 2.49936 0 0 0
+Dr 1.00076 0 0
+At STD N 00E0FFFF
+Ne 2 "N-0000087"
+Po 0 -5.5
+$EndPAD
+$SHAPE3D
+Na "discret/capacitor/cnp_18x8mm.wrl"
+Sc 1.5 1.5 1.5
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE droselis27x12
+$EndLIBRARY
